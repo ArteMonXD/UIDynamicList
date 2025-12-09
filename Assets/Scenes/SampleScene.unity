@@ -1,0 +1,1233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &213278239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 213278243}
+  - component: {fileID: 213278242}
+  - component: {fileID: 213278241}
+  - component: {fileID: 213278240}
+  - component: {fileID: 213278244}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &213278240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213278239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &213278241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213278239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &213278242
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213278239}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &213278243
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213278239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1655333216}
+  - {fileID: 1119262459}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &213278244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213278239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109bda1ca6ab6ba46b70b095c8ffc542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentPrefab: {fileID: 5982935899987717714, guid: 4ea528bf2c798a0418f4fb4ba0e2cf1b, type: 3}
+  listParent: {fileID: 2005150219}
+  eventSystem: {fileID: 1139121222}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 34
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &619394800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 619394802}
+  - component: {fileID: 619394801}
+  m_Layer: 0
+  m_Name: Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &619394801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619394800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 2
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!4 &619394802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619394800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1119262458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119262459}
+  - component: {fileID: 1119262463}
+  - component: {fileID: 1119262462}
+  - component: {fileID: 1119262461}
+  - component: {fileID: 1119262460}
+  - component: {fileID: 1119262464}
+  m_Layer: 5
+  m_Name: ScrollPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1119262459
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2005150219}
+  m_Father: {fileID: 213278243}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -30, y: -30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1119262460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!114 &1119262461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 2005150219}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1119262462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1119262463
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_CullTransparentMesh: 1
+--- !u!114 &1119262464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119262458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d035ef8083e65b42a4ff72b6996881b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 10
+  edgePadding: 50
+  smoothScrolling: 1
+  scrollOnSelectionChange: 1
+  scrollOnPanelExpand: 1
+--- !u!1 &1139121220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1139121223}
+  - component: {fileID: 1139121222}
+  - component: {fileID: 1139121221}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1139121221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139121220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1139121222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139121220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1139121223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139121220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1655333215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655333216}
+  - component: {fileID: 1655333218}
+  - component: {fileID: 1655333217}
+  m_Layer: 5
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1655333216
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655333215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 213278243}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1655333217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655333215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.41037738, g: 0.6467413, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1655333218
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655333215}
+  m_CullTransparentMesh: 1
+--- !u!1 &2005150218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005150219}
+  - component: {fileID: 2005150222}
+  - component: {fileID: 2005150221}
+  - component: {fileID: 2005150220}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2005150219
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005150218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1119262459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &2005150220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005150218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 5
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &2005150221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005150218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!222 &2005150222
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005150218}
+  m_CullTransparentMesh: 1
+--- !u!1 &2025259681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025259683}
+  - component: {fileID: 2025259682}
+  m_Layer: 0
+  m_Name: Systems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2025259682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025259681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0b69a583a14a5429597b4644ebb94a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentList:
+  - mainText: 'The Legend of Zelda: Breath of the Wild'
+    icon: {fileID: 8061449893491908064, guid: 77fd2d04f45645b44a72d37784c1aa2e, type: 3}
+    fullText: "\u041E\u0442\u043A\u0440\u044B\u0442\u044B\u0439 \u043C\u0438\u0440,
+      \u043F\u043E\u043B\u043D\u044B\u0439 \u0437\u0430\u0433\u0430\u0434\u043E\u043A
+      \u0438 \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439.
+      \u041F\u0435\u0440\u0435\u043E\u0441\u043C\u044B\u0441\u043B\u0435\u043D\u0438\u0435
+      \u043A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0441\u0435\u0440\u0438\u0438
+      Zelda \u0441 \u0444\u043E\u043A\u0443\u0441\u043E\u043C \u043D\u0430 \u0441\u0432\u043E\u0431\u043E\u0434\u0435
+      \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F."
+  - mainText: Red Dead Redemption 2
+    icon: {fileID: 7864628672607460643, guid: 98434363ba4287440986e89fde216df0, type: 3}
+    fullText: "\u042D\u043F\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0438\u0441\u0442\u043E\u0440\u0438\u044F
+      \u043E \u0431\u0430\u043D\u0434\u0435 \u0412\u0430\u043D \u0434\u0435\u0440
+      \u041B\u0438\u043D\u0434\u0435 \u0432 \u044D\u043F\u043E\u0445\u0443 \u0414\u0438\u043A\u043E\u0433\u043E
+      \u0417\u0430\u043F\u0430\u0434\u0430. \u041D\u0435\u0432\u0435\u0440\u043E\u044F\u0442\u043D\u0430\u044F
+      \u0434\u0435\u0442\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043C\u0438\u0440\u0430
+      \u0438 \u043F\u0440\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u044B\u0435
+      \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0438."
+  - mainText: 'The Witcher 3: Wild Hunt'
+    icon: {fileID: -934030141879271172, guid: 2b9f59cca9c631f40b1b0092d01f29e1, type: 3}
+    fullText: "\u0413\u0435\u0440\u0430\u043B\u044C\u0442 \u0438\u0437 \u0420\u0438\u0432\u0438\u0438
+      \u0438\u0449\u0435\u0442 \u0426\u0438\u0440\u0438 \u0432 \u0440\u0430\u0437\u0434\u0438\u0440\u0430\u0435\u043C\u043E\u043C
+      \u0432\u043E\u0439\u043D\u043E\u0439 \u043C\u0438\u0440\u0435. \u0411\u043E\u0433\u0430\u0442\u044B\u0439
+      \u0441\u044E\u0436\u0435\u0442, \u043C\u043E\u0440\u0430\u043B\u044C\u043D\u044B\u0435
+      \u0432\u044B\u0431\u043E\u0440\u044B \u0438 \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B\u0439
+      \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0439 \u043C\u0438\u0440."
+  - mainText: God of War (2018)
+    icon: {fileID: 1216306743022970386, guid: 1e6abdb6b4485154a8259c2b55b8a050, type: 3}
+    fullText: "\u041A\u0440\u0430\u0442\u043E\u0441 \u0438 \u0435\u0433\u043E \u0441\u044B\u043D
+      \u0410\u0442\u0440\u0435\u0439 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0443\u044E\u0442
+      \u043F\u043E \u043C\u0438\u0440\u0443 \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u043E\u0439
+      \u043C\u0438\u0444\u043E\u043B\u043E\u0433\u0438\u0438. \u0413\u043B\u0443\u0431\u043E\u043A\u0438\u0439
+      \u0441\u044E\u0436\u0435\u0442 \u043E \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0435
+      \u0438 \u043D\u0430\u0441\u043B\u0435\u0434\u0438\u0438."
+  - mainText: Elden Ring
+    icon: {fileID: 6838937624156591441, guid: 6e9ad05831f64414c9c4c41664c91371, type: 3}
+    fullText: "\u041E\u0442 \u0441\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u0435\u0439
+      Dark Souls \u0438 \u0414\u0436\u043E\u0440\u0434\u0436\u0430 \u041C\u0430\u0440\u0442\u0438\u043D\u0430.
+      \u041D\u0435\u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0439
+      \u043C\u0438\u0440 \u0441 \u0433\u043B\u0443\u0431\u043E\u043A\u0438\u043C
+      \u043B\u043E\u0440\u043E\u043C \u0438 \u0441\u043B\u043E\u0436\u043D\u044B\u043C\u0438
+      \u0431\u043E\u044F\u043C\u0438."
+  - mainText: Minecraft
+    icon: {fileID: 6465136214805871678, guid: e50af6dc07708994fb4e1e11de596412, type: 3}
+    fullText: "\u041A\u0443\u0431\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043F\u0435\u0441\u043E\u0447\u043D\u044B\u0439
+      \u043C\u0438\u0440 \u0431\u0435\u0437 \u0433\u0440\u0430\u043D\u0438\u0446.
+      \u0421\u0442\u0440\u043E\u0439\u0442\u0435, \u0438\u0441\u0441\u043B\u0435\u0434\u0443\u0439\u0442\u0435
+      \u0438 \u0432\u044B\u0436\u0438\u0432\u0430\u0439\u0442\u0435 \u0432 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u043E\u0439
+      \u0432\u0441\u0435\u043B\u0435\u043D\u043D\u043E\u0439."
+  - mainText: Grand Theft Auto V
+    icon: {fileID: -7418463779510846184, guid: c593153302332984b95a7fe3fb30d434, type: 3}
+    fullText: "\u0422\u0440\u0438 \u043F\u0440\u043E\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430
+      \u0432 \u041B\u043E\u0441-\u0421\u0430\u043D\u0442\u043E\u0441\u0435. \u0421\u0430\u0442\u0438\u0440\u0430
+      \u043D\u0430 \u0430\u043C\u0435\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0443\u044E
+      \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0443 \u0441 \u043E\u0433\u0440\u043E\u043C\u043D\u044B\u043C
+      \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u043C \u043C\u0438\u0440\u043E\u043C."
+  - mainText: Cyberpunk 2077
+    icon: {fileID: 4467823252640362422, guid: 68baba27a83dbc74f97bc3b10957a78b, type: 3}
+    fullText: "\u041D\u0430\u0439\u0442-\u0421\u0438\u0442\u0438 \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043E,
+      \u043A\u0438\u0431\u0435\u0440\u043D\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u044F \u0438 \u0438\u0441\u0442\u043E\u0440\u0438\u044F
+      \u043E \u0431\u0435\u0441\u0441\u043C\u0435\u0440\u0442\u0438\u0438. \u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u043D\u0435\u043E-\u043D\u0443\u0430\u0440."
+  - mainText: Dark Souls III
+    icon: {fileID: -8139010161735626545, guid: b450570798983c843bc6031737ee148d, type: 3}
+    fullText: "\u041F\u0438\u043A \u0441\u0435\u0440\u0438\u0438 \u0441\u043E\u0443\u043B\u0441-\u043B\u0430\u0439\u043A
+      \u0438\u0433\u0440. \u0416\u0435\u0441\u0442\u043E\u043A\u0430\u044F, \u043D\u043E
+      \u0441\u043F\u0440\u0430\u0432\u0435\u0434\u043B\u0438\u0432\u0430\u044F \u0431\u043E\u0435\u0432\u0430\u044F
+      \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0438 \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u043D\u044B\u0439
+      \u043C\u0438\u0440."
+  - mainText: Portal 2
+    icon: {fileID: -1247987120742071102, guid: b971fd1ee3a23644baf6e2137615ffa2, type: 3}
+    fullText: "\u0413\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0438
+      \u0441 \u043F\u043E\u0440\u0442\u0430\u043B\u0430\u043C\u0438 \u0438 \u043E\u0441\u0442\u0440\u043E\u0443\u043C\u043D\u044B\u0439
+      \u0441\u044E\u0436\u0435\u0442. \u041E\u0434\u043D\u0430 \u0438\u0437 \u0441\u0430\u043C\u044B\u0445
+      \u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u044B\u0445 \u0438\u0433\u0440
+      \u0432 \u0438\u0441\u0442\u043E\u0440\u0438\u0438."
+  - mainText: 'Half-Life: Alyx'
+    icon: {fileID: 3288069261423307182, guid: 9b5b47320456baa4fa3190995b35bc85, type: 3}
+    fullText: "VR-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435
+      \u043A\u0443\u043B\u044C\u0442\u043E\u0432\u043E\u0439 \u0441\u0435\u0440\u0438\u0438.
+      \u0418\u043D\u043D\u043E\u0432\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0439
+      \u0433\u0435\u0439\u043C\u043F\u043B\u0435\u0439 \u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u044B\u0432\u0430\u044E\u0449\u0430\u044F
+      \u0438\u0441\u0442\u043E\u0440\u0438\u044F."
+  - mainText: Hades
+    icon: {fileID: 3985099580865613765, guid: 5a2f476e085ac3246b19800478e22c00, type: 3}
+    fullText: "\u0420\u043E\u0433\u0430\u043B\u0438\u043A \u043E \u0441\u044B\u043D\u0435
+      \u0410\u0438\u0434\u0430, \u043F\u044B\u0442\u0430\u044E\u0449\u0435\u043C\u0441\u044F
+      \u0441\u0431\u0435\u0436\u0430\u0442\u044C \u0438\u0437 \u043F\u043E\u0434\u0437\u0435\u043C\u043D\u043E\u0433\u043E
+      \u043C\u0438\u0440\u0430. \u041F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B\u0439
+      \u043D\u0430\u0440\u0440\u0430\u0442\u0438\u0432 \u0438 \u0431\u043E\u0435\u0432\u0430\u044F
+      \u0441\u0438\u0441\u0442\u0435\u043C\u0430."
+  - mainText: Persona 5 Royal
+    icon: {fileID: -922512850152902789, guid: 3e747497c3e94be45aa3f655877845ad, type: 3}
+    fullText: "\u042F\u043F\u043E\u043D\u0441\u043A\u0438\u0435 \u0448\u043A\u043E\u043B\u044C\u043D\u0438\u043A\u0438,
+      \u043C\u0435\u043D\u044F\u044E\u0449\u0438\u0435 \u0441\u0435\u0440\u0434\u0446\u0430
+      \u043B\u044E\u0434\u0435\u0439. \u0421\u0442\u0438\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u044B\u0439
+      RPG \u0441 \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u043C \u0441\u0438\u043C\u0443\u043B\u044F\u0442\u043E\u0440\u043E\u043C."
+  - mainText: Celeste
+    icon: {fileID: -5920162011431450398, guid: 06ab9635a65ec7a44908ae658742abf4, type: 3}
+    fullText: "\u041F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440 \u043E
+      \u043F\u0440\u0435\u043E\u0434\u043E\u043B\u0435\u043D\u0438\u0438 \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0445
+      \u0434\u0435\u043C\u043E\u043D\u043E\u0432. \u0422\u043E\u0447\u043D\u043E\u0435
+      \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0438 \u043F\u0440\u043E\u043D\u0437\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+      \u0438\u0441\u0442\u043E\u0440\u0438\u044F."
+  - mainText: Stardew Valley
+    icon: {fileID: 6497738991978279530, guid: e08c0abf911640c47aaf9dc8db846dfc, type: 3}
+    fullText: "\u0424\u0435\u0440\u043C\u0435\u0440\u0441\u043A\u0438\u0439 \u0441\u0438\u043C\u0443\u043B\u044F\u0442\u043E\u0440
+      \u0432 \u043F\u0438\u043A\u0441\u0435\u043B\u044C\u043D\u043E\u043C \u0441\u0442\u0438\u043B\u0435.
+      \u0423\u044E\u0442\u043D\u0430\u044F \u0436\u0438\u0437\u043D\u044C \u0432
+      \u0434\u0435\u0440\u0435\u0432\u043D\u0435 \u0441\u043E \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u043E\u043C
+      \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439."
+  - mainText: The Last of Us Part II
+    icon: {fileID: 6659188521439731557, guid: 914e4d2baf0d3674daa03c352d8230e5, type: 3}
+    fullText: "\u041F\u043E\u0441\u0442\u0430\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+      \u0438\u0441\u0442\u043E\u0440\u0438\u044F \u043E \u043C\u0435\u0441\u0442\u0438
+      \u0438 \u043F\u0440\u043E\u0449\u0435\u043D\u0438\u0438. \u041A\u0438\u043D\u0435\u043C\u0430\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0447\u043D\u044B\u0439
+      \u043D\u0430\u0440\u0440\u0430\u0442\u0438\u0432 \u0438 \u0436\u0435\u0441\u0442\u043E\u043A\u0438\u0439
+      \u043C\u0438\u0440."
+  - mainText: Super Mario Odyssey
+    icon: {fileID: -1386890224072062761, guid: 24b9d5ed828672d4790122cb2b81a9d1, type: 3}
+    fullText: "\u041C\u0430\u0440\u0438\u043E \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0443\u0435\u0442
+      \u043F\u043E \u0440\u0430\u0437\u043D\u044B\u043C \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u0430\u043C.
+      \u041A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0443\u0440\u043E\u0432\u043D\u0438
+      \u0438 \u043A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0438\u043D\u0433."
+  - mainText: Doom Eternal
+    icon: {fileID: 5079278637761532894, guid: d9505560c04607e4883527ef760fdb4f, type: 3}
+    fullText: "\u0423\u043B\u044C\u0442\u0440\u0430\u043D\u0430\u0441\u0438\u043B\u0438\u0435
+      \u043F\u0440\u043E\u0442\u0438\u0432 \u0434\u0435\u043C\u043E\u043D\u043E\u0432
+      \u0438\u0437 \u0430\u0434\u0430. \u0410\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043D\u044B\u0439
+      \u0438 \u0434\u0438\u043D\u0430\u043C\u0438\u0447\u043D\u044B\u0439 \u0448\u0443\u0442\u0435\u0440."
+  - mainText: Hollow Knight
+    icon: {fileID: -7088541988227256380, guid: b18b22d9a9395104f98c91baaf366c10, type: 3}
+    fullText: "\u0435\u0442\u0440\u043E\u0438\u0434\u0432\u0430\u043D\u0438\u044F
+      \u0432 \u043C\u0438\u0440\u0435 \u043D\u0430\u0441\u0435\u043A\u043E\u043C\u044B\u0445.
+      \u0410\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u043D\u044B\u0439 \u043C\u0438\u0440,
+      \u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u0431\u043E\u0438 \u0438 \u043A\u0440\u0430\u0441\u0438\u0432\u0430\u044F
+      \u0440\u0438\u0441\u043E\u0432\u043A\u0430."
+  - mainText: Mass Effect 2
+    icon: {fileID: 4399579217568294980, guid: 78f5ba75ff835394ab28231a2321f666, type: 3}
+    fullText: "\u041A\u043E\u043C\u0430\u043D\u0434\u043E\u0440 \u0428\u0435\u043F\u0430\u0440\u0434
+      \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442 \u043A\u043E\u043C\u0430\u043D\u0434\u0443
+      \u0434\u043B\u044F \u043C\u0438\u0441\u0441\u0438\u0438 \u043F\u0440\u043E\u0442\u0438\u0432
+      \u0421\u043E\u0431\u0438\u0440\u0430\u0442\u0435\u043B\u0435\u0439. \u042D\u043F\u0438\u0447\u043D\u044B\u0439
+      \u043A\u043E\u0441\u043C\u0438\u0447\u0435\u0441\u043A\u0438\u0439 RPG."
+  - mainText: Bioshock Infinite
+    icon: {fileID: 7622637640510181426, guid: 370ac5ee8a38c9b4abf6bbb2c9ef1c64, type: 3}
+    fullText: "\u041F\u0430\u0440\u044F\u0449\u0438\u0439 \u0433\u043E\u0440\u043E\u0434
+      \u041A\u043E\u043B\u0443\u043C\u0431\u0438\u044F \u0438 \u0440\u0435\u0432\u043E\u043B\u044E\u0446\u0438\u044F.
+      \u0424\u0438\u043B\u043E\u0441\u043E\u0444\u0441\u043A\u0438\u0439 \u0441\u044E\u0436\u0435\u0442
+      \u0438 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u0430\u044F \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0430."
+  - mainText: Final Fantasy VII Remake
+    icon: {fileID: -8476218983538801347, guid: 11bd26b66d2b4614e91335acc14aa6c0, type: 3}
+    fullText: "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u0430\u044F
+      \u043A\u043B\u0430\u0441\u0441\u0438\u043A\u0430 JRPG \u0436\u0430\u043D\u0440\u0430.
+      \u0413\u043B\u0443\u0431\u043E\u043A\u0438\u0439 \u0441\u044E\u0436\u0435\u0442
+      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F \u0431\u043E\u0435\u0432\u0430\u044F
+      \u0441\u0438\u0441\u0442\u0435\u043C\u0430."
+  - mainText: Overwatch
+    icon: {fileID: -8486022722058193349, guid: 2bd497310ff8206409d806d8c0574bdb, type: 3}
+    fullText: "\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u044B\u0439 \u0448\u0443\u0442\u0435\u0440
+      \u0441 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u043C\u0438 \u0433\u0435\u0440\u043E\u044F\u043C\u0438.
+      \u041A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u043C\u0438\u0440 \u0438
+      \u0434\u0438\u043D\u0430\u043C\u0438\u0447\u043D\u044B\u0435 \u043C\u0430\u0442\u0447\u0438."
+  - mainText: Among Us
+    icon: {fileID: -7137803384557895420, guid: 680275390da34d04bbd77f62c463a9ef, type: 3}
+    fullText: "\u0421\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u0430\u044F \u0438\u0433\u0440\u0430
+      \u043D\u0430 \u0434\u043E\u0432\u0435\u0440\u0438\u0435 \u0438 \u043E\u0431\u043C\u0430\u043D.
+      \u041F\u0440\u043E\u0441\u0442\u0430\u044F \u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430,
+      \u043F\u043E\u0440\u043E\u0434\u0438\u0432\u0448\u0430\u044F \u043C\u0438\u0440\u043E\u0432\u0443\u044E
+      \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0441\u0442\u044C."
+  - mainText: 'Animal Crossing: New Horizons'
+    icon: {fileID: -932648895039842293, guid: 18589750abc4cd644b2a160d247d1939, type: 3}
+    fullText: "\u0418\u0434\u0435\u0430\u043B\u044C\u043D\u0430\u044F \u0438\u0433\u0440\u0430
+      \u0434\u043B\u044F \u0440\u0435\u043B\u0430\u043A\u0441\u0430. \u0421\u043E\u0437\u0434\u0430\u0439\u0442\u0435
+      \u0441\u0432\u043E\u0439 \u043E\u0441\u0442\u0440\u043E\u0432 \u0438 \u0436\u0438\u0432\u0438\u0442\u0435
+      \u0432 \u0433\u0430\u0440\u043C\u043E\u043D\u0438\u0438.  "
+  - mainText: 'Fallout: New Vegas'
+    icon: {fileID: -6225141520632327257, guid: eedbebb0abb2e2644ace7f454491d80c, type: 3}
+    fullText: "\u041F\u043E\u0441\u0442\u0430\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0412\u0435\u0433\u0430\u0441 \u0438 \u043F\u043E\u043B\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u0438\u043D\u0442\u0440\u0438\u0433\u0438. \u041A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      RPG \u0441 \u043C\u043E\u0440\u0430\u043B\u044C\u043D\u044B\u043C \u0432\u044B\u0431\u043E\u0440\u043E\u043C."
+  - mainText: 'Counter-Strike: Global Offensive'
+    icon: {fileID: -2874069868971200132, guid: 7cfb0c0825ec67a4d88ee977ac05c0d3, type: 3}
+    fullText: "\u042D\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u0430\u044F
+      \u043A\u043B\u0430\u0441\u0441\u0438\u043A\u0430. \u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u0441\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u043C\u0435\u0436\u0434\u0443
+      \u0442\u0435\u0440\u0440\u043E\u0440\u0438\u0441\u0442\u0430\u043C\u0438 \u0438
+      \u0441\u043F\u0435\u0446\u043D\u0430\u0437\u043E\u043C."
+  - mainText: League of Legends
+    icon: {fileID: -878463334578811363, guid: a262dd0365c0f1d4c88fd309765e3268, type: 3}
+    fullText: "MOBA, \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0432\u0448\u0430\u044F
+      \u0436\u0430\u043D\u0440. \u0421\u043E\u0442\u043D\u0438 \u0447\u0435\u043C\u043F\u0438\u043E\u043D\u043E\u0432
+      \u0438 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+      \u0433\u043B\u0443\u0431\u0438\u043D\u0430."
+  - mainText: Fortnite
+    icon: {fileID: -8168799196123171517, guid: 3cab7f5a414759a4e9c64d502b1db626, type: 3}
+    fullText: "\u0411\u0438\u0442\u0432\u0430 \u043D\u0430 \u0432\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u0435
+      \u0441\u043E \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E\u043C.
+      \u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u0430\u044F
+      \u0431\u0438\u0442\u0432\u0430 \u0441 \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u044B\u043C\u0438
+      \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F\u043C\u0438."
+  - mainText: Apex Legends
+    icon: {fileID: 8563850748829509581, guid: 2282d722d4b22eb49a31d5f2de60d52c, type: 3}
+    fullText: "\u0413\u0435\u0440\u043E\u0439\u0441\u043A\u0430\u044F \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u043A\u0430\u044F
+      \u0431\u0438\u0442\u0432\u0430 \u043E\u0442 \u0441\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u0435\u0439
+      Titanfall. \u0411\u044B\u0441\u0442\u0440\u044B\u0439 \u0442\u0435\u043C\u043F
+      \u0438 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u0438.  "
+  - mainText: Resident Evil 2 Remake
+    icon: {fileID: -1062225844623213758, guid: 3a96d92caa211214c98040af582bd6af, type: 3}
+    fullText: "\u0425\u043E\u0440\u0440\u043E\u0440-\u0432\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u044F
+      \u0432 \u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u043E\u0439
+      \u043A\u043B\u0430\u0441\u0441\u0438\u043A\u0435. \u041D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u043D\u044B\u0439
+      \u0433\u0435\u0439\u043C\u043F\u043B\u0435\u0439 \u0438 \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0430
+      \u0443\u0436\u0430\u0441\u0430."
+  - mainText: 'Sekiro: Shadows Die Twice'
+    icon: {fileID: -2373922131179516566, guid: 188c37f3d2a6da64e8c69331e933b2fa, type: 3}
+    fullText: "\u0421\u0451\u0433\u0443\u043D \u0441 \u043C\u0435\u0447\u043E\u043C
+      \u043F\u0440\u043E\u0442\u0438\u0432 \u0441\u0430\u043C\u0443\u0440\u0430\u0435\u0432
+      \u0438 \u0434\u0435\u043C\u043E\u043D\u043E\u0432. \u0422\u0435\u0445\u043D\u0438\u0447\u043D\u044B\u0435
+      \u0434\u0443\u044D\u043B\u0438 \u0438 \u044F\u043F\u043E\u043D\u0441\u043A\u0430\u044F
+      \u044D\u0441\u0442\u0435\u0442\u0438\u043A\u0430."
+  - mainText: Undertale
+    icon: {fileID: 6115243911104922086, guid: 1f81fe33410d7404a80080d7f8b21a27, type: 3}
+    fullText: "RPG, \u0433\u0434\u0435 \u043C\u043E\u0436\u043D\u043E \u043D\u0435
+      \u0443\u0431\u0438\u0432\u0430\u0442\u044C \u043D\u0438\u043A\u043E\u0433\u043E.
+      \u0418\u043D\u043D\u043E\u0432\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0439
+      \u043F\u043E\u0434\u0445\u043E\u0434 \u043A \u0436\u0430\u043D\u0440\u0443
+      \u0438 \u0437\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u044E\u0449\u0438\u0435\u0441\u044F
+      \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0438."
+  - mainText: Death Stranding
+    icon: {fileID: -546875569465020645, guid: 1eccbb2c9ef734845811ffe856c2ca5d, type: 3}
+    fullText: "\u041A\u0443\u0440\u044C\u0435\u0440 \u0432 \u043F\u043E\u0441\u0442\u0430\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439
+      \u0410\u043C\u0435\u0440\u0438\u043A\u0435. \u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0439
+      \u0433\u0435\u0439\u043C\u043F\u043B\u0435\u0439 \u043E \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0438
+      \u043B\u044E\u0434\u0435\u0439."
+  - mainText: Disco Elysium
+    icon: {fileID: -7877316612662462657, guid: 701edb4f16f113e4590edbf7e7f7af76, type: 3}
+    fullText: "\u0414\u0435\u0442\u0435\u043A\u0442\u0438\u0432 \u0431\u0435\u0437
+      \u0431\u043E\u0435\u0432, \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u0438\u0430\u043B\u043E\u0433\u0438.
+      \u0413\u043B\u0443\u0431\u043E\u043A\u0438\u0439 \u0441\u044E\u0436\u0435\u0442
+      \u0438 \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u043D\u0430\u0432\u044B\u043A\u043E\u0432."
+  - mainText: It Takes Two
+    icon: {fileID: 6215414580470781421, guid: 9128450cbd1ac2046a76350a8c34bb02, type: 3}
+    fullText: "\u041A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439
+      \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440 \u043E \u043F\u0430\u0440\u0435,
+      \u043F\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043D\u043D\u043E\u0439 \u0432
+      \u043A\u0443\u043A\u043E\u043B. \u041A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u044B\u0435
+      \u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0438 \u0434\u043B\u044F \u0434\u0432\u043E\u0438\u0445."
+  - mainText: Control
+    icon: {fileID: 7758520851755693162, guid: cb83393a72ab87a438f1d31c6728199a, type: 3}
+    fullText: "\u0421\u0432\u0435\u0440\u0445\u044A\u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0435
+      \u0430\u0433\u0435\u043D\u0442\u0441\u0442\u0432\u043E \u0438 \u0442\u0435\u043B\u0435\u043A\u0438\u043D\u0435\u0437.
+      \u0421\u044E\u0440\u0440\u0435\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u044B\u0439
+      \u043C\u0438\u0440 \u0438 \u0434\u0438\u043D\u0430\u043C\u0438\u0447\u043D\u044B\u0435
+      \u0431\u043E\u0438."
+  - mainText: Ghost of Tsushima
+    icon: {fileID: -3052552383584729855, guid: 68a690ab741801e49ab3f16d5775133d, type: 3}
+    fullText: "\u0421\u0430\u043C\u0443\u0440\u0430\u0439 \u043F\u0440\u043E\u0442\u0438\u0432
+      \u043C\u043E\u043D\u0433\u043E\u043B\u044C\u0441\u043A\u043E\u0433\u043E \u043D\u0430\u0448\u0435\u0441\u0442\u0432\u0438\u044F.
+      \u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0442\u0440\u044F\u0441\u0430\u044E\u0449\u0438\u0439
+      \u043C\u0438\u0440 \u0438 \u0447\u0435\u0441\u0442\u043D\u044B\u0435 \u0434\u0443\u044D\u043B\u0438."
+  - mainText: Metal Gear Solid V
+    icon: {fileID: -5325825982539365226, guid: a624102c2a9cfaf47bebec90112c9479, type: 3}
+    fullText: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0438 \u0432 \u043E\u0442\u043A\u0440\u044B\u0442\u043E\u043C
+      \u043C\u0438\u0440\u0435. \u0413\u043B\u0443\u0431\u043E\u043A\u0438\u0435
+      \u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0438 \u0441\u0442\u0435\u043B\u0441\u0430
+      \u0438 \u0431\u0435\u0437\u0443\u043C\u043D\u044B\u0439 \u0441\u044E\u0436\u0435\u0442."
+  - mainText: 'Nier: Automata'
+    icon: {fileID: -3579406250302903391, guid: e776488f1ebc60242bbdc309b93d8337, type: 3}
+    fullText: "\u0410\u043D\u0434\u0440\u043E\u0438\u0434\u044B \u0438 \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u0441\u043A\u0438\u0435
+      \u0432\u043E\u043F\u0440\u043E\u0441\u044B. \u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+      \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u0439 \u0434\u043B\u044F
+      \u043F\u043E\u043B\u043D\u043E\u0439 \u0438\u0441\u0442\u043E\u0440\u0438\u0438."
+  - mainText: Horizon Zero Dawn
+    icon: {fileID: 934181569583442470, guid: c4fbde8b29f68cc45bf281cf956e08ea, type: 3}
+    fullText: "\u041E\u0445\u043E\u0442\u043D\u0438\u0446\u0430 \u043D\u0430 \u043C\u0435\u0445\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0445
+      \u0441\u0443\u0449\u0435\u0441\u0442\u0432 \u0432 \u043F\u043E\u0441\u0442\u0430\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u043C
+      \u043C\u0438\u0440\u0435. \u041A\u0440\u0430\u0441\u0438\u0432\u0430\u044F
+      \u043F\u0440\u0438\u0440\u043E\u0434\u0430 \u0438 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0439
+      \u043B\u043E\u0440."
+  - mainText: Bloodborne
+    icon: {fileID: 6423410893804644725, guid: 7a84eaf8f1e4e244ba259f1c87ae0e88, type: 3}
+    fullText: "\u0413\u043E\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0443\u0436\u0430\u0441
+      \u0438 \u0430\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043A\u043E\u043C\u0431\u0430\u0442.
+      \u041C\u0440\u0430\u0447\u043D\u044B\u0439 \u043C\u0438\u0440, \u0432\u0434\u043E\u0445\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044B\u0439
+      \u041B\u0430\u0432\u043A\u0440\u0430\u0444\u0442\u043E\u043C."
+  - mainText: Genshin Impact
+    icon: {fileID: 7900574408539866063, guid: 9d98afb7cc35dc4498357459f50a5cd3, type: 3}
+    fullText: "\u0410\u043D\u0438\u043C\u0435-\u043E\u0442\u043A\u0440\u044B\u0442\u044B\u0439
+      \u043C\u0438\u0440 \u0441 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0439
+      \u043C\u0430\u0433\u0438\u0435\u0439. \u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439
+      RPG \u0441 \u0433\u0430\u0447\u0430-\u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439."
+  - mainText: Destiny 2
+    icon: {fileID: 1301834875009023188, guid: c7bcf6a6b0da1ce46a42479c2cebd7e3, type: 3}
+    fullText: "\u0428\u0443\u0442\u0435\u0440-MMO \u043E\u0442 \u0441\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u0435\u0439
+      Halo. \u041A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435
+      \u0440\u0435\u0439\u0434\u044B \u0438 \u0441\u043E\u0440\u0435\u0432\u043D\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      PvP."
+  - mainText: Valorant
+    icon: {fileID: 7002814307640048367, guid: 463e76f1c9018d948aa2c48e364c1818, type: 3}
+    fullText: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0448\u0443\u0442\u0435\u0440 \u0441 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u043C\u0438
+      \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044F\u043C\u0438.
+      \u041A\u043E\u043C\u0431\u0438\u043D\u0430\u0446\u0438\u044F CS:GO \u0438 Overwatch."
+  - mainText: 'Monster Hunter: World'
+    icon: {fileID: 3137893012168494747, guid: 3944166f694222741a41a7caed63a83e, type: 3}
+    fullText: "\u041E\u0445\u043E\u0442\u0430 \u043D\u0430 \u0433\u0438\u0433\u0430\u043D\u0442\u0441\u043A\u0438\u0445
+      \u0447\u0443\u0434\u043E\u0432\u0438\u0449. \u0421\u043B\u043E\u0436\u043D\u044B\u0435
+      \u0431\u043E\u0438 \u0438 \u043A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439
+      \u0433\u0435\u0439\u043C\u043F\u043B\u0435\u0439."
+  - mainText: Terraria
+    icon: {fileID: -1898685091348453864, guid: bc051bf986834c845a8c49e5dcd93a76, type: 3}
+    fullText: "2D-\u043F\u0435\u0441\u043E\u0447\u043D\u0438\u0446\u0430 \u0441 \u0431\u0438\u0442\u0432\u0430\u043C\u0438
+      \u0441 \u0431\u043E\u0441\u0441\u0430\u043C\u0438. \u041D\u0435\u0432\u0435\u0440\u043E\u044F\u0442\u043D\u0430\u044F
+      \u0433\u043B\u0443\u0431\u0438\u043D\u0430 \u043A\u043E\u043D\u0442\u0435\u043D\u0442\u0430
+      \u0432 \u043F\u0438\u043A\u0441\u0435\u043B\u044C\u043D\u043E\u043C \u0441\u0442\u0438\u043B\u0435."
+  - mainText: Rocket League
+    icon: {fileID: 3410590170792501492, guid: 0bc2810f65ffae448aace0517592cbc6, type: 3}
+    fullText: "\u0424\u0443\u0442\u0431\u043E\u043B \u043D\u0430 \u0440\u0430\u043A\u0435\u0442\u043D\u044B\u0445
+      \u043C\u0430\u0448\u0438\u043D\u0430\u0445. \u041F\u0440\u043E\u0441\u0442\u0430\u044F
+      \u043C\u0435\u0445\u0430\u043D\u0438\u043A\u0430 \u0441 \u0432\u044B\u0441\u043E\u043A\u043E\u0439
+      \u043C\u0430\u0441\u0442\u0435\u0440\u043D\u043E\u0441\u0442\u044C\u044E."
+  - mainText: 'The Elder Scrolls V: Skyrim'
+    icon: {fileID: -8803081113948635347, guid: 4af35c4bc4e4c3641bbffa9de5a41035, type: 3}
+    fullText: "\u0414\u0440\u0430\u043A\u043E\u043D\u043E\u0440\u043E\u0436\u0434\u0435\u043D\u043D\u044B\u0439
+      \u0432 \u043F\u0440\u043E\u0432\u0438\u043D\u0446\u0438\u0438 \u0421\u043A\u0430\u0439\u0440\u0438\u043C.
+      \u041A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u0438\u0439 RPG
+      \u0441 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u043C\u0438
+      \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F\u043C\u0438."
+  - mainText: Super Smash Bros. Ultimate
+    icon: {fileID: 2145456595148244998, guid: fb6402feb78e44842bf0cd8a94adf349, type: 3}
+    fullText: "\u0412\u0441\u0435\u043B\u0435\u043D\u043D\u0430\u044F Nintendo \u0432
+      \u043E\u0434\u043D\u043E\u0439 \u0431\u0438\u0442\u0432\u0435. \u041A\u0440\u043E\u0441\u043E\u0432\u0435\u0440
+      \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440-\u0444\u0430\u0439\u0442\u0435\u0440
+      \u0441 \u0434\u0435\u0441\u044F\u0442\u043A\u0430\u043C\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0435\u0439."
+--- !u!4 &2025259683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025259681}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 983.41205, y: 760.4725, z: -4.0449357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 519420032}
+  - {fileID: 619394802}
+  - {fileID: 213278243}
+  - {fileID: 1139121223}
+  - {fileID: 2025259683}
