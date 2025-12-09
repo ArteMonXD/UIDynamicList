@@ -1,0 +1,55 @@
+# 1. СКРИПТЫ C# - текстовые с LF
+*.cs text eol=lf
+
+# 2. ШЕЙДЕРЫ - текстовые с LF
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+*.compute text eol=lf
+
+# 3. PNG - бинарные
+*.png binary -diff
+
+# 4. ДРУГИЕ ИЗОБРАЖЕНИЯ (на будущее)
+*.jpg binary -diff
+*.jpeg binary -diff
+*.gif binary -diff
+*.bmp binary -diff
+*.tga binary -diff
+
+# 5. META ФАЙЛЫ Unity
+*.meta text eol=lf
+
+# 6. КОНФИГУРАЦИОННЫЕ ФАЙЛЫ
+*.json text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# 7. Автоматическое определение для остального
+* text=auto
+
+# Сцены и префабы
+*.unity binary
+*.prefab binary
+
+# Материалы и ассеты
+*.mat binary
+*.asset binary
+*.controller binary
+*.anim binary
+
+# 3D модели
+*.fbx binary
+*.obj binary
+*.blend binary
+
+# Звуки
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Шрифты
+*.ttf binary
+*.otf binary
